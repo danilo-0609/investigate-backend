@@ -1,5 +1,10 @@
-﻿namespace BuildingBlocks.Domain.Events;
+﻿using MediatR;
 
-public interface IDomainEvent
+namespace BuildingBlocks.Domain.Events;
+
+public interface IDomainEvent : INotification
 {
+    Guid DomainEventId { get; }
+
+    DateTime OcurredOn {  get; }
 }

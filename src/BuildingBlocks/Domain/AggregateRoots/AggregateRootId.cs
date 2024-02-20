@@ -1,0 +1,20 @@
+﻿using BuildingBlocks.Domain.Entities;
+
+namespace BuildingBlocks.Domain.AggregateRoots;
+
+public abstract record AggregateRootId<TId> : EntityId<TId>
+    where TId : class
+{
+    protected AggregateRootId(TId value)
+    {
+        Value = value;
+    }
+
+    protected AggregateRootId(EntityId<TId> original) : base(original)
+    {
+    }
+
+    protected AggregateRootId()
+    {
+    }
+}
