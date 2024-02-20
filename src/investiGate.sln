@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{EE3A1E25-CF10-4763-B4DF-35FD01DC78AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{F759FDF6-0D20-44A1-A2D5-41D5A1C6F688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projects.Domain", "Modules\Projects\Projects.Domain\Projects.Domain.csproj", "{A73F06A9-CCD3-4B08-B415-348C4902028B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{2D73CC02-1FCE-43B6-99D1-C7F06C0E7E9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{48EA26DB-D5A7-4FC3-B465-D4233F9CC749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks.Domain", "BuildingBlocks\Domain\BuildingBlocks.Domain\BuildingBlocks.Domain.csproj", "{4E81D14C-0477-4D33-BEBB-E2003E308E61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A73F06A9-CCD3-4B08-B415-348C4902028B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73F06A9-CCD3-4B08-B415-348C4902028B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73F06A9-CCD3-4B08-B415-348C4902028B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73F06A9-CCD3-4B08-B415-348C4902028B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E81D14C-0477-4D33-BEBB-E2003E308E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E81D14C-0477-4D33-BEBB-E2003E308E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E81D14C-0477-4D33-BEBB-E2003E308E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E81D14C-0477-4D33-BEBB-E2003E308E61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F759FDF6-0D20-44A1-A2D5-41D5A1C6F688} = {EE3A1E25-CF10-4763-B4DF-35FD01DC78AB}
+		{A73F06A9-CCD3-4B08-B415-348C4902028B} = {F759FDF6-0D20-44A1-A2D5-41D5A1C6F688}
+		{48EA26DB-D5A7-4FC3-B465-D4233F9CC749} = {2D73CC02-1FCE-43B6-99D1-C7F06C0E7E9A}
+		{4E81D14C-0477-4D33-BEBB-E2003E308E61} = {48EA26DB-D5A7-4FC3-B465-D4233F9CC749}
+	EndGlobalSection
+EndGlobal
