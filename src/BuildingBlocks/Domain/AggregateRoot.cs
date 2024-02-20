@@ -1,6 +1,5 @@
 ﻿namespace BuildingBlocks.Domain;
 
-public class Class1
+public abstract class AggregateRoot
 {
-
 }
